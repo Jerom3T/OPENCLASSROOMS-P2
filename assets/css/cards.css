@@ -1,36 +1,62 @@
-.cards > div{     
+.results{
+    display: flex;
+    gap: 30px; 
+}
+#list{
+    max-width: 880px;
     background-color: var(--lightgrey);
-    border-radius: 25px; 
+    border-radius: 25px;
+}
+#list h2{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+#list h3{
+    padding: 0px;
+    margin: 2px;
+    font-size: 15px;
+}
+.results li{
+    display:inline-block;
+    padding: 0px;
+    margin:0px;
+}
+.resultscards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0px 20px;
+}
+.resultscards img{
+    height: 124px;
+    width: 246px;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+.cards p{
+    padding-left: 5px;
+    margin: 0px;
 }
 .cards{
-    display: flex;
-    gap: 55px;
+    border: 3px solid white;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    height: 199px;
+    width: 246px;
 }
-.cards #hebergements{
-    flex-basis: 66%;
+.cards i{
+    font-size: 12px;
 }
-.cards .populaires{
-    flex-basis: 33%;
-}
-.cards h2 {
-    padding:42px 0px 0px 40px;
+.cards p{
+    padding: 3px 10px;
+    margin: 0px;
 }
 .plus{
     padding:42px 0px 30px 44px;
     font-weight: bold;
-    display: block;
-    
-    
-}
-.results{
-    display: flex;    
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 15px 44px ;
-    gap: 26px;   
-}
-.results div{
-    flex-basis: 30%;
+    display: block;  
 }
 .blue{
     color:var(--blue)
@@ -38,19 +64,3 @@
 .grey{
     color:gainsboro;
 }
-.resultscards{
-    background-color: white;
-    border-radius: 25px;
-    padding: 3px;
-    flex-grow: 1;
-}
-.resultscards img{
-    border-radius: 25px 25px 0px 0px;
-    height: 100px;
-    width: 100%;
-    object-fit: cover;
-}
-.resultscards p{
-    margin: 4px;
-}
-

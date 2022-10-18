@@ -1,61 +1,62 @@
-.populaires h2 {
-    padding: 40px 0px 0px 37px;
-
+.listpopular{
+    flex-basis: 33%;
+    background-color: var(--lightgrey);
+    border-radius: 25px;
 }
-.populaires{
+.titre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+.titre img{
+    height: 15px;
+    width: 18px;
+}
+.listpopular h2{
+    padding-left: 10px;
+}
+.listpopular h3{
+    padding: 0px;
+    margin: 2px;
+    font-size: 15px;
+}
+.resultspop{
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
-    flex-wrap: wrap;
-
+    padding: 10px 20px;
 }
-h2 img{
-    font-size: 18px;
-    padding-left: 100px;
-
-}
-.image{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    border-radius: 25px;
-    height: 144px;
-    width: 343px;
+.cardspop{
     border: 3px solid white;
-    object-fit: cover;
+    display: flex;
+    flex-direction:column-reverse;
+    border-radius: 25px 25px 25px 25px;
     background-color: white;
 }
-.resultspopular img{ 
+.cardspop img {
+    display: flex;
+    flex-direction: row;
+    min-height: 144px;
+    max-height: 144px;
+    width: 137px;
     border-radius: 25px 0px 0px 25px;
-    flex-grow: 0.4;
     object-fit: cover;
-    min-width: 35%;
-    width: 35%;
-    display: flex;
-    flex-wrap: wrap;
-
 }
-.resultspopular{
-    border-radius: 25px;
+.cardspop a{
     display: flex;
-    flex-wrap: wrap;
-
+    margin: 0;
 }
-
+.cardspop p{
+    padding-top: 5px;
+}
+.cardspop i{
+    padding-top: 5%;
+    font-size: 12px;
+}
 .infocards{
-    min-width: 35%;
-    width: 35%;
-    border-radius: 0px 25px 25px 0px;
-    padding: 0px 0px 5px 10px;
-    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
 }
-.infocards i{
-    padding: 30px 0px;
-    font-size: 16px;
-}
-.blue{
-    color:var(--blue)
-}
-.grey{
-    color:gainsboro;
-}
+

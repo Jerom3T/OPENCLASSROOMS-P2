@@ -1,0 +1,179 @@
+/* FORMAT TELEPHONE  */
+
+@media screen and (max-width: 768px){
+    :root{
+        padding:0px;
+        margin: 0px;
+    }
+    body{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .search{
+        padding: 0px 15px;
+        text-align: justify;
+    }
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+    }
+    /* nav */
+    .nav {
+        align-items: inherit;
+        text-align: center;
+        flex-direction: column;
+        margin: auto;
+        padding: 0px;
+    }
+    .sub-nav a{
+        display: block;
+        justify-content: inherit;
+        border-bottom:  3px solid var(--lightgrey);
+    }
+    .sub-nav li{
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    .sub-nav a:hover{
+        color: var(--blue);
+        border-bottom:  3px solid var(--blue);
+        border-top: 3px solid transparent;
+    }
+    /* searchbar */
+
+
+    .fa-solid.fa-magnifying-glass {
+        display: inline;
+        background-color: var(--blue);
+        margin-left: -5px;
+        font-size: 15px;
+        padding: 0;
+    }
+    .button span{
+        display: none;
+    }
+    .input{
+        min-width: 190px;
+    }
+    body h3 {
+        padding: 0px 10px 0px 20px;
+        margin-left: 0px;
+    }
+    /* Filters */
+
+    .filters{
+        display:block;
+    }
+    .filters h3{
+        padding-left: 20px ;
+    }
+    .filtersbutton{
+        padding:15px;
+        gap: 20px;
+    }
+    .filtersbutton li{
+        min-width: 100px;
+        max-width: 180px;
+        min-height: 30px;
+        border-radius: 50px;
+        flex: 1;
+        border: 3px solid var(--lightgrey);
+    }
+    .filtersbutton a{
+        font-size: 10px;
+    }
+    .filtersbutton i{
+        font-size: 22px;
+        padding: 5px;
+    }
+    .info{
+        padding: 10px 15px;
+    }
+    .info i{
+        font-size: 12px;
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Les plus populaires*/
+
+
+    .titre{
+        padding-left: 3px;
+        padding-right: 0px;
+        justify-content: space-evenly;
+    }
+    .cardspop{
+        height: 144px;
+        width: 334px;
+        margin-left:0 ;
+    }
+    .cardspop img{
+        height: 144px;
+        width: 137px;
+    }
+    .listpopular{
+        order: -1;
+        border-radius: 0px;
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    /* hebergements */
+
+    .resultscards img{
+        height: 124px;
+        width: 335px;
+        border-radius: 25px 25px 0px 0px;
+        object-fit: cover;        
+    }
+    .cards{
+        border-radius: 25px 25px 25px 25px;
+        background-color: white;
+        height: 199px;
+        width: 335px;
+        box-shadow: 0px 1px var(--lightgrey);
+        flex-wrap: wrap;
+    }
+    #list h2{
+        padding-left: 20px;
+    }
+    #list{
+        background-color: white;
+    }
+    .plus{
+        display: none;
+    }
+    /* activites */
+    
+    #activites h2{
+        padding: 20px 0px 0px 40px;       
+    }
+    .imgactivity{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img img{
+        height: 190x;
+        min-width: 334px;
+        border-radius: 25px 25px 0px 0px;
+        flex-grow: 1.2;
+        object-fit: cover;
+    }
+    .img{
+        border: 3px solid transparent;
+        border-radius: 25px;
+        min-width: 334px;
+        box-shadow: 0px 1px var(--lightgrey);
+    }
+}

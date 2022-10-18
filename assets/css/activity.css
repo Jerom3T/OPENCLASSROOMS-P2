@@ -1,21 +1,19 @@
 #activites h2{
     padding: 30px 0px 0px 0px;
-
+}
+.imgactivity h3{
+    padding: 30px 0px 0px 20px;
 }
 .imgactivity {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 50px 0px;
-    gap:20px
-
+    gap:5px
 }
 .img a{
     border-radius: 25px;
     flex-grow: 0.4;
-}
-.imgactivity p{
-    padding-left: 19px;
 }
 
 .img img{
@@ -30,4 +28,6 @@
     border-radius: 25px;
     box-shadow: 0px 1px var(--lightgrey);
 }
+
+
 
