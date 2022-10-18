@@ -1,0 +1,61 @@
+.populaires h2 {
+    padding: 40px 0px 0px 37px;
+
+}
+.populaires{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+
+}
+h2 img{
+    font-size: 18px;
+    padding-left: 100px;
+
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 25px;
+    height: 144px;
+    width: 343px;
+    border: 3px solid white;
+    object-fit: cover;
+    background-color: white;
+}
+.resultspopular img{ 
+    border-radius: 25px 0px 0px 25px;
+    flex-grow: 0.4;
+    object-fit: cover;
+    min-width: 35%;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.resultspopular{
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.infocards{
+    min-width: 35%;
+    width: 35%;
+    border-radius: 0px 25px 25px 0px;
+    padding: 0px 0px 5px 10px;
+    font-size: 16px;
+}
+.infocards i{
+    padding: 30px 0px;
+    font-size: 16px;
+}
+.blue{
+    color:var(--blue)
+}
+.grey{
+    color:gainsboro;
+}

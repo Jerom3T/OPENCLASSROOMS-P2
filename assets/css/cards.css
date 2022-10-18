@@ -1,0 +1,56 @@
+.cards > div{     
+    background-color: var(--lightgrey);
+    border-radius: 25px; 
+}
+.cards{
+    display: flex;
+    gap: 55px;
+}
+.cards #hebergements{
+    flex-basis: 66%;
+}
+.cards .populaires{
+    flex-basis: 33%;
+}
+.cards h2 {
+    padding:42px 0px 0px 40px;
+}
+.plus{
+    padding:42px 0px 30px 44px;
+    font-weight: bold;
+    display: block;
+    
+    
+}
+.results{
+    display: flex;    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px 44px ;
+    gap: 26px;   
+}
+.results div{
+    flex-basis: 30%;
+}
+.blue{
+    color:var(--blue)
+}
+.grey{
+    color:gainsboro;
+}
+.resultscards{
+    background-color: white;
+    border-radius: 25px;
+    padding: 3px;
+    flex-grow: 1;
+}
+.resultscards img{
+    border-radius: 25px 25px 0px 0px;
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+}
+.resultscards p{
+    margin: 4px;
+}
+
